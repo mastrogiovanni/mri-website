@@ -9,5 +9,5 @@
 # "production" environment specific build settings
 [build.environment]
   HUGO_VERSION = "0.64.1"
-  HUGO_THEME = "techdoc"
+  HUGO_THEME = "repo"
   HUGO_ENV = "production"
