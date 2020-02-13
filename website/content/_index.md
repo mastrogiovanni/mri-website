@@ -9,11 +9,15 @@ images:
 - home-cover.png
 ---
 
-# Hugo Techdoc Theme
+# MRI OPBG Group
 
-## The Techdoc is a Hugo Theme for technical documentation.
+## The technical documentation about MRI OPBG Group research
 
-## Features
+## Research
+
+We investigate all fields related to brain imaging.
+
+Write here some list...
 
 * Modern, Simple layout
 * Responsive web design

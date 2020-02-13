@@ -1,17 +1,16 @@
 +++
-title = "About Hugo"
-date = "2014-04-09"
+title = "About MRI OPBG Group"
+date = "2020-02-13"
 menu = "main"
 +++
 
-Hugo is a static site engine written in Go.
+Some info about the Magnetic Resonance and Imaging Group of the "Ospedale Pediatrico Bambino Gesù".
 
+We are developing several researches in the following fields:
 
-It makes use of a variety of open source projects including:
+* [Parcelization](https://github.com/spf13/cobra)
+* [Segmentation](https://github.com/spf13/viper)
+* [Advances Machine Learning Feature analysis](https://github.com/spf13/jWalterWeatherman)
+* [...](https://github.com/spf13/cast)
 
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+Learn more and contribute on [GitHub](https://github.com/rmi-bambino-gesu).

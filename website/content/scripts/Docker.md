@@ -14,5 +14,12 @@ This page contains a set of useful scripts to launch dockerized applications in 
 ## Freesurfer
 
 ```bash
-./launch.sh stocazzo
+docker run \
+    -v <local_directory>/mprage.nii:/input/mprage.nii \
+    -v $(pwd):/opt/freesurfer/subjects \
+    -v /home/michele/Projects/rmi-pipelines/license.txt:/opt/freesurfer/.license \
+        freesurfer/freesurfer:6.0 \
+            recon-all -i /input/mprage.nii -s <subject> -all
 ```
+
+When recon-all is terminated, the current directory will have the directory <subject> with the result of recon_all

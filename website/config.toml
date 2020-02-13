@@ -3,7 +3,7 @@ baseURL = "/"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 title = "MRI OPBG Group"
-theme = "hugo-theme-techdoc"
+theme = "mri-website"
 
 hasCJKLanguage = true
 metaDataFormat = "yaml"
