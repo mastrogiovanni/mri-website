@@ -1,11 +1,11 @@
 [en]
-  title = "ZDoc"
+  title = "MRI Group"
   languageName = "English"
   weight = 1
   contentdir = "content/en"
 
-[ko]
-  title = "ZDoc"
-  languageName = "한국어"
+[it]
+  title = "MRI Group"
+  languageName = "Italian"
   weight = 2
-  contentdir = "content/ko"
+  contentdir = "content/it"

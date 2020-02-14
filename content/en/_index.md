@@ -1,14 +1,14 @@
 ---
-title: ZDoc
-description: Hugo ZDoc theme landing page
+title: MRI Group OPBG
+description: Homepage of the MRI Group
 date: 2020-01-26T04:15:05+09:00
 draft: false
 updatesBanner: "Banner - &nbsp; [Hugo ZDoc theme](https://github.com/zzossig/hugo-theme-zdoc) &nbsp; just arrived"
 landingImage: favicon/android-icon-192x192.png
 landingTitle:
-  - Hugo ZDoc theme
+  - MRI Group OPBG
 landingText:
-  - Make a documentation with hugo zdoc theme!
+  - Homepage of the MRI Group
 titleColor:
 textColor:
 spaceBetweenTitleText: 25
@@ -16,7 +16,7 @@ buttons:
   - link: docs/gettingstarted/quickstart
     text: GET STARTED
     color: primary
-  - link: https://github.com/zzossig/hugo-theme-zdoc
+  - link: https://github.com/mri-group-opbg
     text: DOWNLOAD
     color: default
 # shields:

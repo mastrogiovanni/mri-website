@@ -1,5 +1,5 @@
 baseURL = "http://example.org"
-title = "Hugo Zdoc Theme"
+title = "MRI Group OPBG"
 theme = "zdoc"
 
 defaultContentLanguage = "en"
