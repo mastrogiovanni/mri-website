@@ -1,0 +1,6 @@
+[submodule "website/themes/zdoc"]
+	path = website/themes/zdoc
+	url = https://github.com/zzossig/hugo-theme-zdoc.git
+[submodule "website/new/themes/zdoc"]
+	path = website/new/themes/zdoc
+	url = https://github.com/zzossig/hugo-theme-zdoc.git
