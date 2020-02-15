@@ -2,7 +2,7 @@
 
 # Default build settings
 [build]
-  publish = "website/public"
+  # publish = "website/public"
   command = "git submodule update -f --init && hugo --themesDir themes"
 
 # "production" environment specific build settings
