@@ -2,11 +2,11 @@
 
 # Default build settings
 [build]
-  # publish = "website/public"
-  command = "git submodule update -f --init && hugo --themesDir themes/"
+  publish = "public"
+  command = "git submodule update -f --init && hugo --gc --minify"
 
 # "production" environment specific build settings
 [build.environment]
-  HUGO_VERSION = "0.64.1/extended"
+  HUGO_VERSION = "0.64.1"
   HUGO_THEME = "zdoc"
   HUGO_ENV = "production"
