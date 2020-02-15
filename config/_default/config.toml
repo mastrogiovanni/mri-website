@@ -1,4 +1,4 @@
-baseURL = "http://example.org"
+baseURL = "https://mri-opbg-group.netlify.com"
 title = "MRI Group OPBG"
 theme = "zdoc"
 
