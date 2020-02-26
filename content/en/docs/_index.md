@@ -2,24 +2,15 @@
 date: 2017-10-19T15:26:15Z
 lastmod: 2019-10-26T15:26:15Z
 publishdate: 2018-11-23T15:26:15Z
-
-title: Home title
-description: Text about this post
-images:
-- home-cover.png
+title: MRI Group OPBG
+description: Documentation about MRI Group at OPBG
 ---
 
-# MRI OPBG Group
+This site is intended for internal communication purpose only.
 
-## The technical documentation about MRI OPBG Group research
+You can find here informations about:
 
-## Research
-
-We investigate all fields related to brain imaging.
-
-Here the topics we are interested to:
-
-* Topic 1
-* Topic 2
-* Topic 3
+* what we are working on
+* how to do something
+* what tools we already have
 * ...
