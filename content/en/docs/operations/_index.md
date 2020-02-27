@@ -1,5 +1,5 @@
 ---
-title: "Resources"
+title: "Operations"
 date: 2020-02-21T19:07:12+01:00
 draft: false
 weight: 0
