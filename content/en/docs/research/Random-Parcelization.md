@@ -3,7 +3,7 @@ title: "Random Parcelization"
 date: 2020-02-14T15:30:49+01:00
 lastmod: 2020-02-14T15:30:49+01:00
 publishdate: 2020-02-14T15:30:49+01:00
-description: ""
+description: "Random Parcelization"
 weight: 10
 ---
 

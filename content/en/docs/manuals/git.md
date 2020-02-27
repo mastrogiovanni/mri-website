@@ -1,5 +1,6 @@
 ---
 title: "Git"
+description: "Git"
 date: 2020-02-26T13:45:10+01:00
 draft: false
 weight: 1

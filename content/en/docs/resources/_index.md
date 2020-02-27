@@ -1,5 +1,6 @@
 ---
 title: "Resources"
+description: "Resources"
 date: 2020-02-27T15:15:36+01:00
 draft: false
 weight: 0
