@@ -13,7 +13,7 @@ titleColor:
 textColor:
 spaceBetweenTitleText: 25
 buttons:
-  - link: docs/gettingstarted/quickstart
+  - link: docs/gettingstarted/welcome-pack
     text: GET STARTED
     color: primary
   - link: https://github.com/mri-group-opbg

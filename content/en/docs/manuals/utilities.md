@@ -3,7 +3,7 @@ title: "Utilities"
 description: "Utilities"
 date: 2020-01-28T00:34:51+09:00
 draft: false
-weight: 20
+weight: 30
 ---
 
 This page contains a set of useful scripts to launch dockerized applications in any machine of the MRI Group.

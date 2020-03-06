@@ -1,9 +1,9 @@
 ---
-title: "Operations"
-description: "Operations"
+title: "Quick Start"
+description: "Quick Start"
 date: 2020-01-28T00:34:41+09:00
 draft: false
-weight: 10
+weight: 20
 ---
 
 We work with the following technologies:

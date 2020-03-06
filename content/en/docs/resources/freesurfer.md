@@ -8,9 +8,9 @@ enableToc: true
 tocLevels: ["h2", "h3", "h4"]
 ---
 
-# Example on how to use FreeSurfer on Docker
+# Prepare data for FreeSurfer
 
-Assume you have a file `anat.nii.gz` and you want to perform recon-all on it:
+Assume you have a file `anat.nii.gz` and you want to perform recon-all on it.
 
 ```
 SUBJECT_ID=tizio
@@ -37,7 +37,9 @@ docker run \
                 /opt/freesurfer/subjects/$SUBJECT_ID/mri/orig/001.mgz
 ```
 
-Recon all:
+# recon-all: Docker version
+
+From the machine with the subject data run:
 
 ```
 docker run \
@@ -46,4 +48,39 @@ docker run \
 	-v /usr/local/freesurfer/.license:/opt/freesurfer/.license \
 		freesurfer/freesurfer:6.0 \
 			recon-all -s $SUBJECT_ID -all
+```
+
+# recon-all: Kubernetes version
+
+Create a file `recon-all-pod.yml` with the following content:
+
+```recon-all-pod.yml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: recon-all
+spec:
+  containers:
+  - name: recon-all
+    image: freesurfer/freesurfer:6.0
+    command: ["recon-all", "-openmp", "4", "-s", "tizio", "-all"]
+    volumeMounts:
+    - name: license
+      mountPath: /opt/freesurfer/.license
+    - name: subject
+      mountPath: /opt/freesurfer/subjects/tizio
+  restartPolicy: Never
+  volumes:
+  - name: license
+    hostPath:
+      path: /usr/local/freesurfer/.license
+  - name: subject
+    hostPath:
+      path: "$(pwd)/$SUBJECT_ID"
+```
+
+Exec the computation on Kubernetes cluster:
+
+```
+microk8s.kubectl create -f recon-all-pod.yml
 ```

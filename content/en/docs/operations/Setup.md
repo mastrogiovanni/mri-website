@@ -3,7 +3,7 @@ title: "Setup"
 description: "Setup"
 date: 2020-02-26T15:44:35+01:00
 draft: false
-weight: 30
+weight: 5
 enableToc: true
 tocLevels: ["h2", "h3", "h4"]
 ---
