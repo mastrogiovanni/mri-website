@@ -1,5 +1,6 @@
 ---
 title: "Jump Box"
+<<<<<<< HEAD
 date: 2020-03-04T14:05:49+01:00
 draft: false
 weight: 10
@@ -43,3 +44,11 @@ WantedBy=multi-user.target
 ```
 
 
+=======
+date: 2020-03-06T22:15:10+01:00
+draft: false
+weight: 0
+enableToc: true
+tocLevels: ["h2", "h3", "h4"]
+---
+>>>>>>> ec67354c28a1d08a5ca3c948a57f275b4d1884f7

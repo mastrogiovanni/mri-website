@@ -1,6 +1,71 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Operations on MRI Group</title><link>https://mri-opbg-group.netlify.com/docs/operations/</link><description>Recent content in Operations on MRI Group</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><lastBuildDate>Fri, 21 Feb 2020 19:07:12 +0100</lastBuildDate><atom:link href="https://mri-opbg-group.netlify.com/docs/operations/index.xml" rel="self" type="application/rss+xml"/><item><title>Gpu</title><link>https://mri-opbg-group.netlify.com/docs/operations/gpu/</link><pubDate>Fri, 21 Feb 2020 19:09:20 +0100</pubDate><guid>https://mri-opbg-group.netlify.com/docs/operations/gpu/</guid><description>Content Here</description></item><item><title>Overlay</title><link>https://mri-opbg-group.netlify.com/docs/operations/overlay/</link><pubDate>Fri, 21 Feb 2020 19:09:25 +0100</pubDate><guid>https://mri-opbg-group.netlify.com/docs/operations/overlay/</guid><description>Content Here</description></item><item><title>Utilities</title><link>https://mri-opbg-group.netlify.com/docs/operations/utilities/</link><pubDate>Tue, 28 Jan 2020 00:34:51 +0900</pubDate><guid>https://mri-opbg-group.netlify.com/docs/operations/utilities/</guid><description>This page contains a set of useful scripts to launch dockerized applications in any machine of the MRI Group.
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Operations on MRI Group</title>
+    <link>https://mri-opbg-group.netlify.com/docs/operations/</link>
+    <description>Recent content in Operations on MRI Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 21 Feb 2020 19:07:12 +0100</lastBuildDate>
+    
+        <atom:link href="https://mri-opbg-group.netlify.com/docs/operations/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Gpu</title>
+        <link>https://mri-opbg-group.netlify.com/docs/operations/gpu/</link>
+        <pubDate>Fri, 21 Feb 2020 19:09:20 +0100</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/docs/operations/gpu/</guid>
+        <description>Content Here</description>
+      </item>
+      
+      <item>
+        <title>Overlay</title>
+        <link>https://mri-opbg-group.netlify.com/docs/operations/overlay/</link>
+        <pubDate>Fri, 21 Feb 2020 19:09:25 +0100</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/docs/operations/overlay/</guid>
+        <description>Content Here</description>
+      </item>
+      
+      <item>
+        <title>Utilities</title>
+        <link>https://mri-opbg-group.netlify.com/docs/operations/utilities/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:51 +0900</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/docs/operations/utilities/</guid>
+        <description>This page contains a set of useful scripts to launch dockerized applications in any machine of the MRI Group.
 Copy images Suppose you want to copy a Docker image to another host without using DockerHub:
-docker save &amp;lt;image&amp;gt; | bzip2 | pv | ssh -p &amp;lt;port&amp;gt; &amp;lt;username&amp;gt;@&amp;lt;host&amp;gt; 'bunzip2 | docker load' You can omit -p &amp;lt;port&amp;gt; if port is standard 22</description></item><item><title>Setup</title><link>https://mri-opbg-group.netlify.com/docs/operations/setup/</link><pubDate>Wed, 26 Feb 2020 15:44:35 +0100</pubDate><guid>https://mri-opbg-group.netlify.com/docs/operations/setup/</guid><description>In this page you can find all the instruction to setup a new machine.
+docker save &amp;lt;image&amp;gt; | bzip2 | pv | ssh -p &amp;lt;port&amp;gt; &amp;lt;username&amp;gt;@&amp;lt;host&amp;gt; &#39;bunzip2 | docker load&#39; You can omit -p &amp;lt;port&amp;gt; if port is standard 22</description>
+      </item>
+      
+      <item>
+        <title>Setup</title>
+        <link>https://mri-opbg-group.netlify.com/docs/operations/setup/</link>
+        <pubDate>Wed, 26 Feb 2020 15:44:35 +0100</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/docs/operations/setup/</guid>
+        <description>In this page you can find all the instruction to setup a new machine.
 In order
 Operating System Default Users Docker In order to install
-JumpBox Hosts</description></item></channel></rss>
+JumpBox Hosts </description>
+      </item>
+      
+      <item>
+        <title>Kubernetes</title>
+        <link>https://mri-opbg-group.netlify.com/docs/operations/kubernetes/</link>
+        <pubDate>Fri, 28 Feb 2020 12:18:26 +0100</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/docs/operations/kubernetes/</guid>
+        <description>In this section we report setup, role and processes for Kubernetes
+System initialization Create a license.txt file for FreeSurfer:
+cat &amp;lt;&amp;lt;EOT &amp;gt; license.txt elena.swa@hotmail.it 31311 *CA5LKFSazHnE FSJHQF00tpWss EOT </description>
+      </item>
+      
+    
+  </channel>
+</rss>
