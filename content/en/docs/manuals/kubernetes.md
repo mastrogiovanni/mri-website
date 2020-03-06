@@ -40,3 +40,36 @@ Execute it on the cluster:
 ```
 microk8s.kubectl apply -f pod.yml
 ```
+
+
+## Recon All with a Pod
+
+```
+apiVersion: v1
+kind: Pod
+metadata:
+  name: recon-all
+spec:
+  containers:
+  - name: recon-all
+    image: freesurfer/freesurfer:6.0
+    command: ["recon-all", "-i", "/data/anat.nii.gz", "-s", "subject", "-all"]
+    volumeMounts:
+    - name: license
+      mountPath: /opt/freesurfer/.license
+    - name: anat-file 
+      mountPath: /data/anat.nii.gz
+    - name: subject
+      mountPath: /opt/freesurfer/subjects
+  restartPolicy: Never
+  volumes:
+  - name: license
+    hostPath:
+      path: /usr/local/freesurfer/.license
+  - name: subject
+    hostPath:
+      path: /home/mastrogiovanni/test 
+  - name: anat-file
+    hostPath:
+      path: /data/MASTROGIOVANNI/autismo/controllo/28698/session_1/anat_1/anat.nii.gz
+```
