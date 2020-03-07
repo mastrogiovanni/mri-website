@@ -13,6 +13,8 @@ tocLevels: ["h2", "h3", "h4"]
 Are a new student working at MRI Group? 
 You are in the right place.
 In this page you'll understand:
-* How to access to Lab appliances
+* Lab Hosts
+* Naming conventions
 * ...
+
 

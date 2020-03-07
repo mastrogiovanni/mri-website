@@ -6,5 +6,8 @@ draft: false
 weight: 20
 ---
 
-Content Here
+In order to work with GPU you need to install:
+* GPU (NVIDIA) Card Driver
+* CUDA Development Toolkit
+* Docker version >= 19 or adding nvidia-docker support
 
