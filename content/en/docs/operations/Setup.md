@@ -31,6 +31,46 @@ In order to install
 # Hosts
 
 
+# Proxy
+
+## Bash
+
+`vi ~/.bashrc`
+
+```
+export http_proxy=172.16.135.1:8080
+export ftp_proxy=172.16.135.1:8080
+export https_proxy=172.16.135.1:8080
+```
+
+## APT
+
+`vi /etc/apt/apt.conf.d/proxy.conf`
+
+```
+Acquire::http::Proxy "http://172.16.135.1:8080/";
+Acquire::https::Proxy "http://172.16.135.1:8080/";
+```
+
+## Docker
+
+`vi ~/.docker/config.json`
+
+```
+{
+ "proxies":
+ {
+   "default":
+   {
+     "httpProxy": "http://172.16.135.1:8080",
+     "httpsProxy": "http://172.16.135.1:8080"
+   }
+ }
+}
+```
+
+
+
 # GPU Card Drivers
 
 # CUDA Drivers
@@ -41,5 +81,10 @@ Cuda Toolik is a popular
 
 From version 19, Docker support natively GPUs.
 For all other situations check [here for NVIDIA](https://github.com/NVIDIA/nvidia-docker).
+
+# VLC Server
+
+In order to access to machine you can connect to VNC server
+https://medium.com/hackernoon/installation-of-vnc-server-on-ubuntu-1cf035370bd3
 
 
