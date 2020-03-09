@@ -39,7 +39,7 @@ docker run \
         mdt-create-protocol bvecs bvals
 ```
 
-The following command run MDT over data `data.nii` and using `bvecs.prtcl` and mask `nodif_brain_mask.nii` and produce directory `subject` with the `NODDI` fitting.
+The following command run MDT over `data.nii`, `bvecs.prtcl` and `nodif_brain_mask.nii` to produce the directory `subject` performing the `NODDI` fitting.
 
 ```
 docker run \
@@ -61,7 +61,7 @@ docker run \
 
 ### NOTICE: how to solve the GPU stuck bug.
 
-The previous task can stuck using some GPUs (e.g TITAN RTX). This is due to the kernel of the hessian computation that is compiled for the GPU and its code is not perfectly general purpose. In order to resolve this issue you need to get the configuration file mdt.conf inside container with the following:
+The previous task can stuck using some GPUs (e.g TITAN RTX). This is due to the computation of the hessian matrix that is performed compiling a kernel for the GPU: its code is not perfectly general purpose and can stuck the computation itself in that phase. In order to resolve this issue you need to get the configuration file mdt.conf inside container with the following:
 
 ```
 docker create -ti --name dummy mrigroupopbg/mri-mdt:latest bash
