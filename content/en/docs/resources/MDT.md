@@ -17,8 +17,6 @@ In order to execute MDT you need to have:
 
 ## First run
 
-In order to work with MDT you need to have a `.mdt` working config directory
-
 Check if the installation is ok with the following command:
 
 ```
