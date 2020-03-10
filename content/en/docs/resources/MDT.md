@@ -7,7 +7,7 @@ enableToc: true
 tocLevels: ["h2", "h3", "h4"]
 ---
 
-## Prerequisiste
+## Prerequisite
 
 In order to execute MDT you need to have:
 * a working GPU card,
