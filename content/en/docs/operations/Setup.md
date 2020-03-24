@@ -24,14 +24,12 @@ In order
 
 In order to install
 
-# JumpBox
-
-
-
 # Hosts
 
 
 # Proxy
+
+In the following the proxy setup for some common software:
 
 ## Bash
 
@@ -50,6 +48,13 @@ export https_proxy=172.16.135.1:8080
 ```
 Acquire::http::Proxy "http://172.16.135.1:8080/";
 Acquire::https::Proxy "http://172.16.135.1:8080/";
+```
+
+## Snap
+
+```
+sudo snap set system proxy.http="http://172.16.135.1:8080"
+sudo snap set system proxy.https="http://172.16.135.1:8080"
 ```
 
 ## Docker

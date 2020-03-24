@@ -10,3 +10,4 @@ tocLevels: ["h2", "h3", "h4"]
 Here the list of machines that are managed by MRI Lab:
 
 ![Assets](/images/Assets.png)
+

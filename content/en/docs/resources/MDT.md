@@ -85,7 +85,7 @@ than overwrite the container configuration adding `-v $(pwd)/mdt.conf:/.mdt/1.2.
 docker run \
     --rm \
     --gpus all \
-    -v $(pwd)/mdt.conf:/.mdt/1.2.2/mdt.conf \
+    -v $(pwd)/mdt.conf:/root/.mdt/1.2.2/mdt.conf \
     -v $(pwd):/apps \
     -w /apps mrigroupopbg/mri-mdt:latest \
         mdt-model-fit \
