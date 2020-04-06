@@ -2,7 +2,7 @@
 title: "Kubernetes"
 date: 2020-02-28T12:18:26+01:00
 draft: false
-weight: 40
+weight: 10
 enableToc: true
 tocLevels: ["h2", "h3", "h4"]
 ---

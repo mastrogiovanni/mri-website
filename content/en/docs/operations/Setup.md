@@ -13,7 +13,13 @@ In order
 
 # Operating System
 
+In order to make `sudo` without password
 
+run `visudo`
+
+ensure to have the following line with `NOPASSWD`:
+
+`%sudo   ALL=(ALL:ALL) NOPASSWD: ALL`
 
 # Default Users
 
@@ -92,4 +98,9 @@ For all other situations check [here for NVIDIA](https://github.com/NVIDIA/nvidi
 In order to access to machine you can connect to VNC server
 https://medium.com/hackernoon/installation-of-vnc-server-on-ubuntu-1cf035370bd3
 
+Enter in a user login and perform the following:
+
+```
+vncserver :<port>
+```
 

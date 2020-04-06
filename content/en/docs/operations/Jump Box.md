@@ -42,4 +42,8 @@ Restart=always
 WantedBy=multi-user.target
 ```
 
+In order to establish connection every day after crash we added also a crontab for root with `crontab -e`:
 
+`0 4 * * * /bin/systemctl restart secure-tunnel@jumpbox.service`
+
+in this way every day at 4 AM the tunnel is established again.

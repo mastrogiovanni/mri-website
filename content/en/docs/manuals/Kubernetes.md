@@ -73,3 +73,7 @@ spec:
     hostPath:
       path: /data/MASTROGIOVANNI/autismo/controllo/28698/session_1/anat_1/anat.nii.gz
 ```
+
+# Cheatsheet
+
+[Cheatsheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)

@@ -48,5 +48,8 @@ Finally if you want that all your commit are saved on the remote repository:
 git push
 ```
 
-### 
+# Resources
+
+* [Git Guide](https://rogerdudler.github.io/git-guide/)
+* [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 

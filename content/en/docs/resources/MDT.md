@@ -123,7 +123,7 @@ For example the previous command became:
 docker run \
     --rm \
     --gpus all \
-    -v $(pwd)/mdt.conf:/.mdt/1.2.2/mdt.conf \
+    -v $(pwd)/mdt.conf:/root/.mdt/1.2.2/mdt.conf \
     -v $(pwd)/MDT/mdt:/usr/lib/python3/dist-packages/mdt \
     -v $(pwd):/apps \
     -w /apps mrigroupopbg/mri-mdt:latest \
