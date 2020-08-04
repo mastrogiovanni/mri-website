@@ -47,3 +47,15 @@ In order to establish connection every day after crash we added also a crontab f
 `0 4 * * * /bin/systemctl restart secure-tunnel@jumpbox.service`
 
 in this way every day at 4 AM the tunnel is established again.
+
+# Creadentials saving
+
+You can generate a key with `ssh keygen` and inject in the server with `ssh-copy-id <host>`.
+
+# Mounting remote directory
+
+In order to mount the remote directory `/path/directory` from host `host` in the local computer in directory `path/to/destination` you need to open a connection in a terminal with the following:
+
+```
+ssh -N -L 9999:localhost:5557 -p 1023 michele@2.239.23.4
+```

@@ -11,8 +11,6 @@ Kubeflow is a complex set of components running on top of a Kubernetes cluster t
 
 In the following sections the steps followed to install kubeflow:
 
-
-
 # K8s via Kubeadmin
 sudo kubeadm init 
 
@@ -101,6 +99,15 @@ kubectl create configmap dex --from-file=config.yaml=dex-config.yaml -n auth --d
 kubectl rollout restart deployment dex -n auth
 ```
 
+# Volumes
+
+If you need to mount a volume to a notebook you need a persistent volume like this:
+
+```
+
+```
+
+
 # References
 
 [Tutorial](https://www.swiftdiaries.com/tech/kf-1-0/)
@@ -114,4 +121,18 @@ kubectl rollout restart deployment dex -n auth
 
 ```
 pip install --user --proxy 172.16.135.1:8080 pandas
+```
+
+
+# Test GPU
+
+```
+import tensorflow as tf
+with tf.device('/gpu:0'):
+    a = tf.constant([1.0, 2.0, 3.0, 4.0, 5.0, 6.0], shape=[2, 3], name='a')
+    b = tf.constant([1.0, 2.0, 3.0, 4.0, 5.0, 6.0], shape=[3, 2], name='b')
+    c = tf.matmul(a, b)
+
+with tf.Session() as sess:
+    print (sess.run(c))
 ```
