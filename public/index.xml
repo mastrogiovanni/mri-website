@@ -1,32 +1,269 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MRI Group OPBG on MRI Group</title><link>https://mri-opbg-group.netlify.com/</link><description>Recent content in MRI Group OPBG on MRI Group</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><lastBuildDate>Sun, 26 Jan 2020 04:15:05 +0900</lastBuildDate><atom:link href="https://mri-opbg-group.netlify.com/index.xml" rel="self" type="application/rss+xml"/><item><title>May 2019</title><link>https://mri-opbg-group.netlify.com/updates/2019_may/</link><pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate><guid>https://mri-opbg-group.netlify.com/updates/2019_may/</guid><description>Markdown here</description></item><item><title>April 2019</title><link>https://mri-opbg-group.netlify.com/updates/2019_april/</link><pubDate>Tue, 28 Jan 2020 00:10:48 +0900</pubDate><guid>https://mri-opbg-group.netlify.com/updates/2019_april/</guid><description>Markdown here</description></item><item><title>March 2019</title><link>https://mri-opbg-group.netlify.com/updates/2019_march/</link><pubDate>Tue, 28 Jan 2020 00:10:42 +0900</pubDate><guid>https://mri-opbg-group.netlify.com/updates/2019_march/</guid><description>Markdown here</description></item><item><title>February 2019</title><link>https://mri-opbg-group.netlify.com/updates/2019_february/</link><pubDate>Tue, 28 Jan 2020 00:10:37 +0900</pubDate><guid>https://mri-opbg-group.netlify.com/updates/2019_february/</guid><description>Markdown here</description></item><item><title>January 2019</title><link>https://mri-opbg-group.netlify.com/updates/2019_january/</link><pubDate>Tue, 28 Jan 2020 00:10:09 +0900</pubDate><guid>https://mri-opbg-group.netlify.com/updates/2019_january/</guid><description>Markdown here</description></item><item><title>Git</title><link>https://mri-opbg-group.netlify.com/docs/manuals/git/</link><pubDate>Wed, 26 Feb 2020 13:45:10 +0100</pubDate><guid>https://mri-opbg-group.netlify.com/docs/manuals/git/</guid><description>Download a repository When you need to download a project to start working on it:
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MRI Group OPBG on MRI Group</title>
+    <link>https://mri-opbg-group.netlify.com/</link>
+    <description>Recent content in MRI Group OPBG on MRI Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 26 Jan 2020 04:15:05 +0900</lastBuildDate>
+    
+        <atom:link href="https://mri-opbg-group.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>May 2019</title>
+        <link>https://mri-opbg-group.netlify.com/updates/2019_may/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:51 +0900</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/updates/2019_may/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>April 2019</title>
+        <link>https://mri-opbg-group.netlify.com/updates/2019_april/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:48 +0900</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/updates/2019_april/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>March 2019</title>
+        <link>https://mri-opbg-group.netlify.com/updates/2019_march/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:42 +0900</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/updates/2019_march/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>February 2019</title>
+        <link>https://mri-opbg-group.netlify.com/updates/2019_february/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:37 +0900</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/updates/2019_february/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>January 2019</title>
+        <link>https://mri-opbg-group.netlify.com/updates/2019_january/</link>
+        <pubDate>Tue, 28 Jan 2020 00:10:09 +0900</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/updates/2019_january/</guid>
+        <description>Markdown here</description>
+      </item>
+      
+      <item>
+        <title>Git</title>
+        <link>https://mri-opbg-group.netlify.com/docs/manuals/git/</link>
+        <pubDate>Wed, 26 Feb 2020 13:45:10 +0100</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/docs/manuals/git/</guid>
+        <description>Download a repository When you need to download a project to start working on it:
 git clone https://github.com/mri-group-opbg/&amp;lt;repository&amp;gt; Save locally your changes You can see what&amp;rsquo;s changed in your code with:
 git status Than you need to add files to the local index:
 git add file1 file2 ... or if you want to add all files
-git add * Than you can save this change set to your local computer with:</description></item><item><title>Gpu</title><link>https://mri-opbg-group.netlify.com/docs/operations/gpu/</link><pubDate>Fri, 21 Feb 2020 19:09:20 +0100</pubDate><guid>https://mri-opbg-group.netlify.com/docs/operations/gpu/</guid><description>Content Here</description></item><item><title>Scripting Resources</title><link>https://mri-opbg-group.netlify.com/docs/resources/scripting-resources/</link><pubDate>Thu, 20 Feb 2020 00:34:41 +0900</pubDate><guid>https://mri-opbg-group.netlify.com/docs/resources/scripting-resources/</guid><description>In this page we report some useful examples and references to solve problems using bash scripts.
+git add * Than you can save this change set to your local computer with:</description>
+      </item>
+      
+      <item>
+        <title>Welcome Pack</title>
+        <link>https://mri-opbg-group.netlify.com/docs/gettingstarted/welcome-pack/</link>
+        <pubDate>Thu, 27 Feb 2020 15:20:18 +0100</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/docs/gettingstarted/welcome-pack/</guid>
+        <description>Welcome! Are a new student working at MRI Group?
+You are in the right place.
+In this page you&amp;rsquo;ll understand:
+ How to access to Lab appliances &amp;hellip;  </description>
+      </item>
+      
+      <item>
+        <title>Gpu</title>
+        <link>https://mri-opbg-group.netlify.com/docs/operations/gpu/</link>
+        <pubDate>Fri, 21 Feb 2020 19:09:20 +0100</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/docs/operations/gpu/</guid>
+        <description>Content Here</description>
+      </item>
+      
+      <item>
+        <title>Scripting Resources</title>
+        <link>https://mri-opbg-group.netlify.com/docs/resources/scripting-resources/</link>
+        <pubDate>Thu, 20 Feb 2020 00:34:41 +0900</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/docs/resources/scripting-resources/</guid>
+        <description>In this page we report some useful examples and references to solve problems using bash scripts.
 Reduce number of concurrent Jobs Sometime you want to execute N concurrent bash scripts but you don&amp;rsquo;t want to overload the CPU.
 You prefere to control the execution such that anytime no more that K bash scripts are running
 together.
-In order to solve this problem you need to create a script like the following exec-async.</description></item><item><title>Random Parcelization</title><link>https://mri-opbg-group.netlify.com/docs/research/random-parcelization/</link><pubDate>Fri, 14 Feb 2020 15:30:49 +0100</pubDate><guid>https://mri-opbg-group.netlify.com/docs/research/random-parcelization/</guid><description>Random Parcelization Considering files DKTatlas40 (atlas) for marco parcelization and ic4 micro parcelization (uniform) we map the brain and we found a number of randomic variance of this parcelization
+In order to solve this problem you need to create a script like the following exec-async.</description>
+      </item>
+      
+      <item>
+        <title>Random Parcelization</title>
+        <link>https://mri-opbg-group.netlify.com/docs/research/random-parcelization/</link>
+        <pubDate>Fri, 14 Feb 2020 15:30:49 +0100</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/docs/research/random-parcelization/</guid>
+        <description>Random Parcelization Considering files DKTatlas40 (atlas) for marco parcelization and ic4 micro parcelization (uniform) we map the brain and we found a number of randomic variance of this parcelization
 Phase 2 In order to prepare data and parcelyze randomly patient data you need to perform a series of actions using FreeSurfer scripts.
 Recall to setup SUBJECTS_DIR and FREESURFER_HOME environment variables to work with FreeSurfer.
 The actions are:
-merge all labels in a single label per hemisphere create an annotation (label + colortable) from merged labels apply this label + coloratab to each patient to create the original labelling Subjects directory schema .</description></item><item><title>Operations</title><link>https://mri-opbg-group.netlify.com/docs/gettingstarted/quickstart/</link><pubDate>Tue, 28 Jan 2020 00:34:41 +0900</pubDate><guid>https://mri-opbg-group.netlify.com/docs/gettingstarted/quickstart/</guid><description>We work with the following technologies:
-Matlab Python &amp;hellip; We use the following software:
-Fsl FreeSurfer Mdt &amp;hellip;</description></item><item><title>Overlay</title><link>https://mri-opbg-group.netlify.com/docs/operations/overlay/</link><pubDate>Fri, 21 Feb 2020 19:09:25 +0100</pubDate><guid>https://mri-opbg-group.netlify.com/docs/operations/overlay/</guid><description>Content Here</description></item><item><title>Utilities</title><link>https://mri-opbg-group.netlify.com/docs/operations/utilities/</link><pubDate>Tue, 28 Jan 2020 00:34:51 +0900</pubDate><guid>https://mri-opbg-group.netlify.com/docs/operations/utilities/</guid><description>This page contains a set of useful scripts to launch dockerized applications in any machine of the MRI Group.
+ merge all labels in a single label per hemisphere create an annotation (label + colortable) from merged labels apply this label + coloratab to each patient to create the original labelling   Subjects directory schema .</description>
+      </item>
+      
+      <item>
+        <title>Overlay</title>
+        <link>https://mri-opbg-group.netlify.com/docs/operations/overlay/</link>
+        <pubDate>Fri, 21 Feb 2020 19:09:25 +0100</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/docs/operations/overlay/</guid>
+        <description>Content Here</description>
+      </item>
+      
+      <item>
+        <title>Utilities</title>
+        <link>https://mri-opbg-group.netlify.com/docs/operations/utilities/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:51 +0900</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/docs/operations/utilities/</guid>
+        <description>This page contains a set of useful scripts to launch dockerized applications in any machine of the MRI Group.
 Copy images Suppose you want to copy a Docker image to another host without using DockerHub:
-docker save &amp;lt;image&amp;gt; | bzip2 | pv | ssh -p &amp;lt;port&amp;gt; &amp;lt;username&amp;gt;@&amp;lt;host&amp;gt; 'bunzip2 | docker load' You can omit -p &amp;lt;port&amp;gt; if port is standard 22</description></item><item><title>Setup</title><link>https://mri-opbg-group.netlify.com/docs/operations/setup/</link><pubDate>Wed, 26 Feb 2020 15:44:35 +0100</pubDate><guid>https://mri-opbg-group.netlify.com/docs/operations/setup/</guid><description>In this page you can find all the instruction to setup a new machine.
+docker save &amp;lt;image&amp;gt; | bzip2 | pv | ssh -p &amp;lt;port&amp;gt; &amp;lt;username&amp;gt;@&amp;lt;host&amp;gt; &#39;bunzip2 | docker load&#39; You can omit -p &amp;lt;port&amp;gt; if port is standard 22</description>
+      </item>
+      
+      <item>
+        <title>Quick Start</title>
+        <link>https://mri-opbg-group.netlify.com/docs/gettingstarted/quickstart/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:41 +0900</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/docs/gettingstarted/quickstart/</guid>
+        <description>We work with the following technologies:
+ Matlab Python &amp;hellip;  We use the following software:
+ Fsl FreeSurfer Mdt &amp;hellip;  </description>
+      </item>
+      
+      <item>
+        <title>Setup</title>
+        <link>https://mri-opbg-group.netlify.com/docs/operations/setup/</link>
+        <pubDate>Wed, 26 Feb 2020 15:44:35 +0100</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/docs/operations/setup/</guid>
+        <description>In this page you can find all the instruction to setup a new machine.
 In order
 Operating System Default Users Docker In order to install
-JumpBox Hosts</description></item><item><title>Welcome Pack</title><link>https://mri-opbg-group.netlify.com/docs/gettingstarted/welcome-pack/</link><pubDate>Thu, 27 Feb 2020 15:20:18 +0100</pubDate><guid>https://mri-opbg-group.netlify.com/docs/gettingstarted/welcome-pack/</guid><description>Welcome! Are a new student working at MRI Group?
-You are in the right place.
-In this page you&amp;rsquo;ll understand:
-How to access to Lab appliances &amp;hellip;</description></item><item><title>Freesurfer</title><link>https://mri-opbg-group.netlify.com/docs/resources/freesurfer/</link><pubDate>Thu, 27 Feb 2020 15:11:58 +0100</pubDate><guid>https://mri-opbg-group.netlify.com/docs/resources/freesurfer/</guid><description>Example on how to use FreeSurfer on Docker Assume you have a file anat.nii.gz and you want to perform recon-all on it:
+JumpBox Hosts </description>
+      </item>
+      
+      <item>
+        <title>Kubernetes</title>
+        <link>https://mri-opbg-group.netlify.com/docs/operations/kubernetes/</link>
+        <pubDate>Fri, 28 Feb 2020 12:18:26 +0100</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/docs/operations/kubernetes/</guid>
+        <description>In this section we report setup, role and processes for Kubernetes
+System initialization Create a license.txt file for FreeSurfer:
+cat &amp;lt;&amp;lt;EOT &amp;gt; license.txt elena.swa@hotmail.it 31311 *CA5LKFSazHnE FSJHQF00tpWss EOT </description>
+      </item>
+      
+      <item>
+        <title>Freesurfer</title>
+        <link>https://mri-opbg-group.netlify.com/docs/resources/freesurfer/</link>
+        <pubDate>Thu, 27 Feb 2020 15:11:58 +0100</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/docs/resources/freesurfer/</guid>
+        <description>Prepare data for FreeSurfer Assume you have a file anat.nii.gz and you want to perform recon-all on it.
 SUBJECT_ID=tizio INPUT_FILE=&amp;lt;the-path-of-anat-file&amp;gt;/anat.nii.gz Setup directory:
 mkdir -p $SUBJECT_ID/mri/orig cp $INPUT_FILE $SUBJECT_ID/mri/orig/ Creation of mgz
-docker run \ --rm \ -v $(pwd)/$SUBJECT_ID:/opt/freesurfer/subjects/$SUBJECT_ID \ -v /usr/local/freesurfer/.license:/opt/freesurfer/.license \ freesurfer/freesurfer:6.0 \ mri_convert \ /opt/freesurfer/subjects/$SUBJECT_ID/mri/orig/anat.nii.gz \ /opt/freesurfer/subjects/$SUBJECT_ID/mri/orig/001.mgz Recon all:
-docker run \ --rm \ -v $(pwd)/$SUBJECT_ID:/opt/freesurfer/subjects/$SUBJECT_ID \ -v /usr/local/freesurfer/.license:/opt/freesurfer/.license \ freesurfer/freesurfer:6.0 \ recon-all -s $SUBJECT_ID -all</description></item><item><title>Kubernetes</title><link>https://mri-opbg-group.netlify.com/docs/manuals/kubernetes/</link><pubDate>Wed, 26 Feb 2020 14:40:20 +0100</pubDate><guid>https://mri-opbg-group.netlify.com/docs/manuals/kubernetes/</guid><description>Run a simple container:
+docker run \ --rm \ -v $(pwd)/$SUBJECT_ID:/opt/freesurfer/subjects/$SUBJECT_ID \ -v /usr/local/freesurfer/.license:/opt/freesurfer/.license \ freesurfer/freesurfer:6.0 \ mri_convert \ /opt/freesurfer/subjects/$SUBJECT_ID/mri/orig/anat.nii.gz \ /opt/freesurfer/subjects/$SUBJECT_ID/mri/orig/001.mgz recon-all: Docker version From the machine with the subject data run:
+docker run \ --rm \ -v $(pwd)/$SUBJECT_ID:/opt/freesurfer/subjects/$SUBJECT_ID \ -v /usr/local/freesurfer/.license:/opt/freesurfer/.license \ freesurfer/freesurfer:6.</description>
+      </item>
+      
+      <item>
+        <title>Kubernetes</title>
+        <link>https://mri-opbg-group.netlify.com/docs/manuals/kubernetes/</link>
+        <pubDate>Wed, 26 Feb 2020 14:40:20 +0100</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/docs/manuals/kubernetes/</guid>
+        <description>Run a simple container:
 microk8s.kubectl run hello-world --replicas=1 --labels=&amp;quot;experiment=my-experiment&amp;quot; --image=&amp;quot;hello-world&amp;quot; Write a Pod descriptor for your computation:
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 apiVersion:v1kind:Podmetadata:name:hello-worldspec:containers:- name:ubuntuimage:ubuntucommand:[&amp;#34;/bin/bash&amp;#34;,&amp;#34;-c&amp;#34;,&amp;#34;/bin/ls&amp;#34;,&amp;#34;/data/redis&amp;#34;]volumeMounts:- name:redis-storagemountPath:/data/redisrestartPolicy:Nevervolumes:- name:redis-storageemptyDir:{} Execute it on the cluster:
-microk8s.kubectl apply -f pod.yml</description></item><item><title>Docker</title><link>https://mri-opbg-group.netlify.com/docs/manuals/docker/</link><pubDate>Wed, 26 Feb 2020 14:40:16 +0100</pubDate><guid>https://mri-opbg-group.netlify.com/docs/manuals/docker/</guid><description/></item><item><title>About MRI OPBG Group</title><link>https://mri-opbg-group.netlify.com/docs/about/</link><pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate><guid>https://mri-opbg-group.netlify.com/docs/about/</guid><description>Our wonderful staff is composed by:
-Ricercatori x Antonio Napolitano Martina Lucignani x Laura x Francesca Bottino Tesisti Giuseppe L&amp;rsquo;Episcopo x Ludovica Luciani x &amp;hellip; x &amp;hellip; Some info about the Magnetic Resonance and Imaging Group of the &amp;ldquo;Ospedale Pediatrico Bambino Gesù&amp;rdquo;.</description></item><item><title>Markdown Syntax Guide</title><link>https://mri-opbg-group.netlify.com/blog/markdown-syntax/</link><pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate><guid>https://mri-opbg-group.netlify.com/blog/markdown-syntax/</guid><description>&lt;p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p></description></item><item><title>Section</title><link>https://mri-opbg-group.netlify.com/docs/sections/</link><pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate><guid>https://mri-opbg-group.netlify.com/docs/sections/</guid><description>&lt;p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p></description></item><item><title>Rich Content</title><link>https://mri-opbg-group.netlify.com/blog/rich-content/</link><pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate><guid>https://mri-opbg-group.netlify.com/blog/rich-content/</guid><description>&lt;p>Hugo ships with several &lt;a href="https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes">Built-in Shortcodes&lt;/a> for rich content, along with a &lt;a href="https://gohugo.io/about/hugo-and-gdpr/">Privacy Config&lt;/a> and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p></description></item><item><title>Placeholder Text</title><link>https://mri-opbg-group.netlify.com/blog/placeholder-text/</link><pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate><guid>https://mri-opbg-group.netlify.com/blog/placeholder-text/</guid><description>&lt;p>Lorem est tota propiore conpellat pectoribus de&lt;br />
-pectora summo.&lt;/p></description></item><item><title>Emoji Support</title><link>https://mri-opbg-group.netlify.com/blog/emoji-support/</link><pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate><guid>https://mri-opbg-group.netlify.com/blog/emoji-support/</guid><description>&lt;p>Emoji can be enabled in a Hugo project in a number of ways.&lt;/p></description></item></channel></rss>
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16  apiVersion:v1kind:Podmetadata:name:hello-worldspec:containers:- name:ubuntuimage:ubuntucommand:[&amp;#34;/bin/bash&amp;#34;,&amp;#34;-c&amp;#34;,&amp;#34;/bin/ls&amp;#34;,&amp;#34;/data/redis&amp;#34;]volumeMounts:- name:redis-storagemountPath:/data/redisrestartPolicy:Nevervolumes:- name:redis-storageemptyDir:{}  Execute it on the cluster:
+microk8s.kubectl apply -f pod.yml </description>
+      </item>
+      
+      <item>
+        <title>Docker</title>
+        <link>https://mri-opbg-group.netlify.com/docs/manuals/docker/</link>
+        <pubDate>Wed, 26 Feb 2020 14:40:16 +0100</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/docs/manuals/docker/</guid>
+        <description>This browser does not support PDFs. Please download the PDF to view it: Download PDF.
+ </description>
+      </item>
+      
+      <item>
+        <title>About MRI OPBG Group</title>
+        <link>https://mri-opbg-group.netlify.com/docs/about/</link>
+        <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/docs/about/</guid>
+        <description>Our wonderful staff is composed by:
+Ricercatori          x Antonio Napolitano    Martina Lucignani   x Laura   x Francesca Bottino    Tesisti           Giuseppe L&amp;rsquo;Episcopo   x Ludovica Luciani   x &amp;hellip;   x &amp;hellip;    Some info about the Magnetic Resonance and Imaging Group of the &amp;ldquo;Ospedale Pediatrico Bambino Gesù&amp;rdquo;.</description>
+      </item>
+      
+      <item>
+        <title>Markdown Syntax Guide</title>
+        <link>https://mri-opbg-group.netlify.com/blog/markdown-syntax/</link>
+        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/blog/markdown-syntax/</guid>
+        <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      </item>
+      
+      <item>
+        <title>Section</title>
+        <link>https://mri-opbg-group.netlify.com/docs/sections/</link>
+        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/docs/sections/</guid>
+        <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      </item>
+      
+      <item>
+        <title>Rich Content</title>
+        <link>https://mri-opbg-group.netlify.com/blog/rich-content/</link>
+        <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/blog/rich-content/</guid>
+        <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
+      </item>
+      
+      <item>
+        <title>Placeholder Text</title>
+        <link>https://mri-opbg-group.netlify.com/blog/placeholder-text/</link>
+        <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/blog/placeholder-text/</guid>
+        <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de&lt;br /&gt;
+pectora summo.&lt;/p&gt;</description>
+      </item>
+      
+      <item>
+        <title>Emoji Support</title>
+        <link>https://mri-opbg-group.netlify.com/blog/emoji-support/</link>
+        <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/blog/emoji-support/</guid>
+        <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+      </item>
+      
+    
+  </channel>
+</rss>

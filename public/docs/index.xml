@@ -1,3 +1,83 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MRI Group OPBG on MRI Group</title><link>https://mri-opbg-group.netlify.com/docs/</link><description>Recent content in MRI Group OPBG on MRI Group</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><lastBuildDate>Thu, 19 Oct 2017 15:26:15 +0000</lastBuildDate><atom:link href="https://mri-opbg-group.netlify.com/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Getting Started</title><link>https://mri-opbg-group.netlify.com/docs/gettingstarted/</link><pubDate>Tue, 28 Jan 2020 00:34:39 +0900</pubDate><guid>https://mri-opbg-group.netlify.com/docs/gettingstarted/</guid><description/></item><item><title>Research</title><link>https://mri-opbg-group.netlify.com/docs/research/</link><pubDate>Tue, 28 Jan 2020 00:34:39 +0900</pubDate><guid>https://mri-opbg-group.netlify.com/docs/research/</guid><description/></item><item><title>Resources</title><link>https://mri-opbg-group.netlify.com/docs/resources/</link><pubDate>Thu, 27 Feb 2020 15:15:36 +0100</pubDate><guid>https://mri-opbg-group.netlify.com/docs/resources/</guid><description/></item><item><title>Manuals</title><link>https://mri-opbg-group.netlify.com/docs/manuals/</link><pubDate>Wed, 26 Feb 2020 13:43:49 +0100</pubDate><guid>https://mri-opbg-group.netlify.com/docs/manuals/</guid><description>In this page you can find informations and cheatsheets for the following subjects:
-Git Docker &amp;hellip;</description></item><item><title>Operations</title><link>https://mri-opbg-group.netlify.com/docs/operations/</link><pubDate>Fri, 21 Feb 2020 19:07:12 +0100</pubDate><guid>https://mri-opbg-group.netlify.com/docs/operations/</guid><description>In this page we will report all the task, roles and processes related to the maintenance of architecture, servers&amp;hellip;</description></item><item><title>About MRI OPBG Group</title><link>https://mri-opbg-group.netlify.com/docs/about/</link><pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate><guid>https://mri-opbg-group.netlify.com/docs/about/</guid><description>Our wonderful staff is composed by:
-Ricercatori x Antonio Napolitano Martina Lucignani x Laura x Francesca Bottino Tesisti Giuseppe L&amp;rsquo;Episcopo x Ludovica Luciani x &amp;hellip; x &amp;hellip; Some info about the Magnetic Resonance and Imaging Group of the &amp;ldquo;Ospedale Pediatrico Bambino Gesù&amp;rdquo;.</description></item><item><title>Section</title><link>https://mri-opbg-group.netlify.com/docs/sections/</link><pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate><guid>https://mri-opbg-group.netlify.com/docs/sections/</guid><description>&lt;p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MRI Group OPBG on MRI Group</title>
+    <link>https://mri-opbg-group.netlify.com/docs/</link>
+    <description>Recent content in MRI Group OPBG on MRI Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 19 Oct 2017 15:26:15 +0000</lastBuildDate>
+    
+        <atom:link href="https://mri-opbg-group.netlify.com/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Research</title>
+        <link>https://mri-opbg-group.netlify.com/docs/research/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:39 +0900</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/docs/research/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Manuals</title>
+        <link>https://mri-opbg-group.netlify.com/docs/manuals/</link>
+        <pubDate>Wed, 26 Feb 2020 13:43:49 +0100</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/docs/manuals/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>Operations</title>
+        <link>https://mri-opbg-group.netlify.com/docs/operations/</link>
+        <pubDate>Fri, 21 Feb 2020 19:07:12 +0100</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/docs/operations/</guid>
+        <description>In this page we will report all the task, roles and processes related to the maintenance of architecture, servers&amp;hellip;</description>
+      </item>
+      
+      <item>
+        <title>Resources</title>
+        <link>https://mri-opbg-group.netlify.com/docs/resources/</link>
+        <pubDate>Thu, 27 Feb 2020 15:15:36 +0100</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/docs/resources/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>About MRI OPBG Group</title>
+        <link>https://mri-opbg-group.netlify.com/docs/about/</link>
+        <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/docs/about/</guid>
+        <description>Our wonderful staff is composed by:
+Ricercatori          x Antonio Napolitano    Martina Lucignani   x Laura   x Francesca Bottino    Tesisti           Giuseppe L&amp;rsquo;Episcopo   x Ludovica Luciani   x &amp;hellip;   x &amp;hellip;    Some info about the Magnetic Resonance and Imaging Group of the &amp;ldquo;Ospedale Pediatrico Bambino Gesù&amp;rdquo;.</description>
+      </item>
+      
+      <item>
+        <title>Getting Started</title>
+        <link>https://mri-opbg-group.netlify.com/docs/gettingstarted/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:39 +0900</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/docs/gettingstarted/</guid>
+        <description>pippo</description>
+      </item>
+      
+      <item>
+        <title>Section</title>
+        <link>https://mri-opbg-group.netlify.com/docs/sections/</link>
+        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://mri-opbg-group.netlify.com/docs/sections/</guid>
+        <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      </item>
+      
+    
+  </channel>
+</rss>
