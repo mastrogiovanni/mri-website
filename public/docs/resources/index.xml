@@ -1,45 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Resources on MRI Group</title>
-    <link>https://mri-opbg-group.netlify.com/docs/resources/</link>
-    <description>Recent content in Resources on MRI Group</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 27 Feb 2020 15:15:36 +0100</lastBuildDate>
-    
-        <atom:link href="https://mri-opbg-group.netlify.com/docs/resources/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    
-      
-      <item>
-        <title>Scripting Resources</title>
-        <link>https://mri-opbg-group.netlify.com/docs/resources/scripting-resources/</link>
-        <pubDate>Thu, 20 Feb 2020 00:34:41 +0900</pubDate>
-        
-        <guid>https://mri-opbg-group.netlify.com/docs/resources/scripting-resources/</guid>
-        <description>In this page we report some useful examples and references to solve problems using bash scripts.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Resources on MRI Group</title><link>https://mri-opbg-group.netlify.com/docs/resources/</link><description>Recent content in Resources on MRI Group</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><lastBuildDate>Thu, 27 Feb 2020 15:15:36 +0100</lastBuildDate><atom:link href="https://mri-opbg-group.netlify.com/docs/resources/index.xml" rel="self" type="application/rss+xml"/><item><title>Scripting Resources</title><link>https://mri-opbg-group.netlify.com/docs/resources/scripting-resources/</link><pubDate>Thu, 20 Feb 2020 00:34:41 +0900</pubDate><guid>https://mri-opbg-group.netlify.com/docs/resources/scripting-resources/</guid><description>In this page we report some useful examples and references to solve problems using bash scripts.
 Reduce number of concurrent Jobs Sometime you want to execute N concurrent bash scripts but you don&amp;rsquo;t want to overload the CPU.
 You prefere to control the execution such that anytime no more that K bash scripts are running
 together.
-In order to solve this problem you need to create a script like the following exec-async.</description>
-      </item>
-      
-      <item>
-        <title>Freesurfer</title>
-        <link>https://mri-opbg-group.netlify.com/docs/resources/freesurfer/</link>
-        <pubDate>Thu, 27 Feb 2020 15:11:58 +0100</pubDate>
-        
-        <guid>https://mri-opbg-group.netlify.com/docs/resources/freesurfer/</guid>
-        <description>Prepare data for FreeSurfer Assume you have a file anat.nii.gz and you want to perform recon-all on it.
+In order to solve this problem you need to create a script like the following exec-async.</description></item><item><title>MDT</title><link>https://mri-opbg-group.netlify.com/docs/resources/mdt/</link><pubDate>Mon, 09 Mar 2020 19:59:15 +0100</pubDate><guid>https://mri-opbg-group.netlify.com/docs/resources/mdt/</guid><description>Prerequisite In order to execute MDT you need to have:
+a working GPU card, GPU card driver, CUDA Toolkit, Docker with GPU support First run Check if the installation is ok with the following command:
+docker run \ --rm \ --gpus all \ mrigroupopbg/mri-mdt \ mdt-list-devices The following command takes files bvals and bvecs and produce in the directory the file bvecs.prtcl:
+docker run \ --rm \ --gpus all \ -v $(pwd):/app \ -w /app \ mrigroupopbg/mri-mdt \ mdt-create-protocol bvecs bvals The following command run MDT over data.</description></item><item><title>Papers</title><link>https://mri-opbg-group.netlify.com/docs/resources/papers/</link><pubDate>Sat, 07 Mar 2020 23:26:04 +0100</pubDate><guid>https://mri-opbg-group.netlify.com/docs/resources/papers/</guid><description>UNDERSTANDING THE HUMAN SUBCORTEX USING ULTRA-HIGH FIELD MRI AND COMPUTATIONAL COGNITIVE MODELS Gilles de Hollander
+download / preview
+This browser does not support PDFs. Please download the PDF to view it: Download PDF.</description></item><item><title>Freesurfer</title><link>https://mri-opbg-group.netlify.com/docs/resources/freesurfer/</link><pubDate>Thu, 27 Feb 2020 15:11:58 +0100</pubDate><guid>https://mri-opbg-group.netlify.com/docs/resources/freesurfer/</guid><description>Prepare data for FreeSurfer Assume you have a file anat.nii.gz and you want to perform recon-all on it.
 SUBJECT_ID=tizio INPUT_FILE=&amp;lt;the-path-of-anat-file&amp;gt;/anat.nii.gz Setup directory:
 mkdir -p $SUBJECT_ID/mri/orig cp $INPUT_FILE $SUBJECT_ID/mri/orig/ Creation of mgz
 docker run \ --rm \ -v $(pwd)/$SUBJECT_ID:/opt/freesurfer/subjects/$SUBJECT_ID \ -v /usr/local/freesurfer/.license:/opt/freesurfer/.license \ freesurfer/freesurfer:6.0 \ mri_convert \ /opt/freesurfer/subjects/$SUBJECT_ID/mri/orig/anat.nii.gz \ /opt/freesurfer/subjects/$SUBJECT_ID/mri/orig/001.mgz recon-all: Docker version From the machine with the subject data run:
-docker run \ --rm \ -v $(pwd)/$SUBJECT_ID:/opt/freesurfer/subjects/$SUBJECT_ID \ -v /usr/local/freesurfer/.license:/opt/freesurfer/.license \ freesurfer/freesurfer:6.</description>
-      </item>
-      
-    
-  </channel>
-</rss>
+docker run \ --rm \ -v $(pwd)/$SUBJECT_ID:/opt/freesurfer/subjects/$SUBJECT_ID \ -v /usr/local/freesurfer/.license:/opt/freesurfer/.license \ freesurfer/freesurfer:6.</description></item></channel></rss>

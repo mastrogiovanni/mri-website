@@ -1,54 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Manuals on MRI Group</title>
-    <link>https://mri-opbg-group.netlify.com/docs/manuals/</link>
-    <description>Recent content in Manuals on MRI Group</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 26 Feb 2020 13:43:49 +0100</lastBuildDate>
-    
-        <atom:link href="https://mri-opbg-group.netlify.com/docs/manuals/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    
-      
-      <item>
-        <title>Git</title>
-        <link>https://mri-opbg-group.netlify.com/docs/manuals/git/</link>
-        <pubDate>Wed, 26 Feb 2020 13:45:10 +0100</pubDate>
-        
-        <guid>https://mri-opbg-group.netlify.com/docs/manuals/git/</guid>
-        <description>Download a repository When you need to download a project to start working on it:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Manuals on MRI Group</title><link>https://mri-opbg-group.netlify.com/docs/manuals/</link><description>Recent content in Manuals on MRI Group</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><lastBuildDate>Wed, 26 Feb 2020 13:43:49 +0100</lastBuildDate><atom:link href="https://mri-opbg-group.netlify.com/docs/manuals/index.xml" rel="self" type="application/rss+xml"/><item><title>Git</title><link>https://mri-opbg-group.netlify.com/docs/manuals/git/</link><pubDate>Wed, 26 Feb 2020 13:45:10 +0100</pubDate><guid>https://mri-opbg-group.netlify.com/docs/manuals/git/</guid><description>Download a repository When you need to download a project to start working on it:
 git clone https://github.com/mri-group-opbg/&amp;lt;repository&amp;gt; Save locally your changes You can see what&amp;rsquo;s changed in your code with:
 git status Than you need to add files to the local index:
 git add file1 file2 ... or if you want to add all files
-git add * Than you can save this change set to your local computer with:</description>
-      </item>
-      
-      <item>
-        <title>Kubernetes</title>
-        <link>https://mri-opbg-group.netlify.com/docs/manuals/kubernetes/</link>
-        <pubDate>Wed, 26 Feb 2020 14:40:20 +0100</pubDate>
-        
-        <guid>https://mri-opbg-group.netlify.com/docs/manuals/kubernetes/</guid>
-        <description>Run a simple container:
+git add * Than you can save this change set to your local computer with:</description></item><item><title>Docker</title><link>https://mri-opbg-group.netlify.com/docs/manuals/docker/</link><pubDate>Wed, 26 Feb 2020 14:40:16 +0100</pubDate><guid>https://mri-opbg-group.netlify.com/docs/manuals/docker/</guid><description/></item><item><title>Kubernetes</title><link>https://mri-opbg-group.netlify.com/docs/manuals/kubernetes/</link><pubDate>Wed, 26 Feb 2020 14:40:20 +0100</pubDate><guid>https://mri-opbg-group.netlify.com/docs/manuals/kubernetes/</guid><description>Run a simple container:
 microk8s.kubectl run hello-world --replicas=1 --labels=&amp;quot;experiment=my-experiment&amp;quot; --image=&amp;quot;hello-world&amp;quot; Write a Pod descriptor for your computation:
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16  apiVersion:v1kind:Podmetadata:name:hello-worldspec:containers:- name:ubuntuimage:ubuntucommand:[&amp;#34;/bin/bash&amp;#34;,&amp;#34;-c&amp;#34;,&amp;#34;/bin/ls&amp;#34;,&amp;#34;/data/redis&amp;#34;]volumeMounts:- name:redis-storagemountPath:/data/redisrestartPolicy:Nevervolumes:- name:redis-storageemptyDir:{}  Execute it on the cluster:
-microk8s.kubectl apply -f pod.yml </description>
-      </item>
-      
-      <item>
-        <title>Docker</title>
-        <link>https://mri-opbg-group.netlify.com/docs/manuals/docker/</link>
-        <pubDate>Wed, 26 Feb 2020 14:40:16 +0100</pubDate>
-        
-        <guid>https://mri-opbg-group.netlify.com/docs/manuals/docker/</guid>
-        <description>This browser does not support PDFs. Please download the PDF to view it: Download PDF.
- </description>
-      </item>
-      
-    
-  </channel>
-</rss>
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 apiVersion:v1kind:Podmetadata:name:hello-worldspec:containers:- name:ubuntuimage:ubuntucommand:[&amp;#34;/bin/bash&amp;#34;,&amp;#34;-c&amp;#34;,&amp;#34;/bin/ls&amp;#34;,&amp;#34;/data/redis&amp;#34;]volumeMounts:- name:redis-storagemountPath:/data/redisrestartPolicy:Nevervolumes:- name:redis-storageemptyDir:{} Execute it on the cluster:
+microk8s.kubectl apply -f pod.yml Recon All with a Pod apiVersion: v1 kind: Pod metadata: name: recon-all spec: containers: - name: recon-all image: freesurfer/freesurfer:6.0 command: [&amp;quot;recon-all&amp;quot;, &amp;quot;-i&amp;quot;, &amp;quot;/data/anat.</description></item><item><title>Utilities</title><link>https://mri-opbg-group.netlify.com/docs/manuals/utilities/</link><pubDate>Tue, 28 Jan 2020 00:34:51 +0900</pubDate><guid>https://mri-opbg-group.netlify.com/docs/manuals/utilities/</guid><description>This page contains a set of useful scripts to launch dockerized applications in any machine of the MRI Group.
+Copy images Suppose you want to copy a Docker image to another host without using DockerHub:
+docker save &amp;lt;image&amp;gt; | bzip2 | pv | ssh -p &amp;lt;port&amp;gt; &amp;lt;username&amp;gt;@&amp;lt;host&amp;gt; 'bunzip2 | docker load' You can omit -p &amp;lt;port&amp;gt; if port is standard 22</description></item><item><title>Open Source Contribution</title><link>https://mri-opbg-group.netlify.com/docs/manuals/open-source-contribution/</link><pubDate>Sat, 07 Mar 2020 16:08:08 +0100</pubDate><guid>https://mri-opbg-group.netlify.com/docs/manuals/open-source-contribution/</guid><description>We describe in this document the minimal steps that you need to perform in order
+to contribute to an open source software.
+Fork the repository You need to fork the original repository in your space.
+This operation creates a new repository in your space with the same name as the original one.
+The created repository has a children/parent relation with the forked repository.
+Work with the forked repository Checkout the forked repository and work on it.</description></item><item><title/><link>https://mri-opbg-group.netlify.com/docs/manuals/argo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mri-opbg-group.netlify.com/docs/manuals/argo/</guid><description>To install:
+kubectl create namespace argo
+kubectl apply -n argo -f https://raw.githubusercontent.com/argoproj/argo/v2.4.3/manifests/install.yaml
+To see the gui
+kubectl -n argo port-forward deployment/argo-ui 8001:8001
+Clean all jobs:
+argo delete $(argo list | awk '{ print $1 }' | tail -n +2)</description></item></channel></rss>

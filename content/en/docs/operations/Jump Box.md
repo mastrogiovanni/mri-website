@@ -1,5 +1,6 @@
 ---
 title: "Jump Box"
+description: "Jump Box"
 date: 2020-03-04T14:05:49+01:00
 draft: false
 weight: 10

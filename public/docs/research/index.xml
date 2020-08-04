@@ -1,32 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Research on MRI Group</title>
-    <link>https://mri-opbg-group.netlify.com/docs/research/</link>
-    <description>Recent content in Research on MRI Group</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 28 Jan 2020 00:34:39 +0900</lastBuildDate>
-    
-        <atom:link href="https://mri-opbg-group.netlify.com/docs/research/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    
-      
-      <item>
-        <title>Random Parcelization</title>
-        <link>https://mri-opbg-group.netlify.com/docs/research/random-parcelization/</link>
-        <pubDate>Fri, 14 Feb 2020 15:30:49 +0100</pubDate>
-        
-        <guid>https://mri-opbg-group.netlify.com/docs/research/random-parcelization/</guid>
-        <description>Random Parcelization Considering files DKTatlas40 (atlas) for marco parcelization and ic4 micro parcelization (uniform) we map the brain and we found a number of randomic variance of this parcelization
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research on MRI Group</title><link>https://mri-opbg-group.netlify.com/docs/research/</link><description>Recent content in Research on MRI Group</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><lastBuildDate>Tue, 28 Jan 2020 00:34:39 +0900</lastBuildDate><atom:link href="https://mri-opbg-group.netlify.com/docs/research/index.xml" rel="self" type="application/rss+xml"/><item><title>Random Parcelization</title><link>https://mri-opbg-group.netlify.com/docs/research/random-parcelization/</link><pubDate>Fri, 14 Feb 2020 15:30:49 +0100</pubDate><guid>https://mri-opbg-group.netlify.com/docs/research/random-parcelization/</guid><description>Random Parcelization Considering files DKTatlas40 (atlas) for marco parcelization and ic4 micro parcelization (uniform) we map the brain and we found a number of randomic variance of this parcelization
 Phase 2 In order to prepare data and parcelyze randomly patient data you need to perform a series of actions using FreeSurfer scripts.
 Recall to setup SUBJECTS_DIR and FREESURFER_HOME environment variables to work with FreeSurfer.
 The actions are:
- merge all labels in a single label per hemisphere create an annotation (label + colortable) from merged labels apply this label + coloratab to each patient to create the original labelling   Subjects directory schema .</description>
-      </item>
-      
-    
-  </channel>
-</rss>
+merge all labels in a single label per hemisphere create an annotation (label + colortable) from merged labels apply this label + coloratab to each patient to create the original labelling Subjects directory schema .</description></item></channel></rss>

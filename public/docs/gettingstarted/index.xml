@@ -1,42 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Getting Started on MRI Group</title>
-    <link>https://mri-opbg-group.netlify.com/docs/gettingstarted/</link>
-    <description>Recent content in Getting Started on MRI Group</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 28 Jan 2020 00:34:39 +0900</lastBuildDate>
-    
-        <atom:link href="https://mri-opbg-group.netlify.com/docs/gettingstarted/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    
-      
-      <item>
-        <title>Welcome Pack</title>
-        <link>https://mri-opbg-group.netlify.com/docs/gettingstarted/welcome-pack/</link>
-        <pubDate>Thu, 27 Feb 2020 15:20:18 +0100</pubDate>
-        
-        <guid>https://mri-opbg-group.netlify.com/docs/gettingstarted/welcome-pack/</guid>
-        <description>Welcome! Are a new student working at MRI Group?
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Getting Started on MRI Group</title><link>https://mri-opbg-group.netlify.com/docs/gettingstarted/</link><description>Recent content in Getting Started on MRI Group</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><lastBuildDate>Tue, 28 Jan 2020 00:34:39 +0900</lastBuildDate><atom:link href="https://mri-opbg-group.netlify.com/docs/gettingstarted/index.xml" rel="self" type="application/rss+xml"/><item><title>Welcome Pack</title><link>https://mri-opbg-group.netlify.com/docs/gettingstarted/welcome-pack/</link><pubDate>Thu, 27 Feb 2020 15:20:18 +0100</pubDate><guid>https://mri-opbg-group.netlify.com/docs/gettingstarted/welcome-pack/</guid><description>Welcome! Are a new student working at MRI Group?
 You are in the right place.
 In this page you&amp;rsquo;ll understand:
- How to access to Lab appliances &amp;hellip;  </description>
-      </item>
-      
-      <item>
-        <title>Quick Start</title>
-        <link>https://mri-opbg-group.netlify.com/docs/gettingstarted/quickstart/</link>
-        <pubDate>Tue, 28 Jan 2020 00:34:41 +0900</pubDate>
-        
-        <guid>https://mri-opbg-group.netlify.com/docs/gettingstarted/quickstart/</guid>
-        <description>We work with the following technologies:
- Matlab Python &amp;hellip;  We use the following software:
- Fsl FreeSurfer Mdt &amp;hellip;  </description>
-      </item>
-      
-    
-  </channel>
-</rss>
+Lab Hosts Naming conventions &amp;hellip;</description></item><item><title>Quick Start</title><link>https://mri-opbg-group.netlify.com/docs/gettingstarted/quickstart/</link><pubDate>Tue, 28 Jan 2020 00:34:41 +0900</pubDate><guid>https://mri-opbg-group.netlify.com/docs/gettingstarted/quickstart/</guid><description>We work with the following technologies:
+Matlab Python &amp;hellip; We use the following software:
+Fsl FreeSurfer Mdt &amp;hellip;</description></item></channel></rss>
